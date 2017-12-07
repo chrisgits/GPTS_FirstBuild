@@ -1,0 +1,1 @@
+var today=new Date,year=today.getFullYear(),el=document.getElementById("cyear");el.innerHTML=year;

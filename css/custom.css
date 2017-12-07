@@ -1,0 +1,35 @@
+.container-fluid {
+  padding: 0px 0px;
+}
+
+a {
+  color: rgb(200, 200, 200);
+}
+
+.info { /*relationship section*/
+	display: flex;
+	background: rgb(80, 120, 80);
+	flex-flow: column nowrap;
+	justify-content: center;
+  text-align: center;
+  padding-top: 2.5em;
+}
+
+.info-col p {
+	color: #c7c7c7;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 575px) {
+  nav {
+    height: 3em;
+  }
+  body {
+    font-size: 16px;
+  }
+
+  .title h2 {
+    font-size: 1em;
+  }
+ }

@@ -1,0 +1,287 @@
+/*
+This file is used to contain all vendor imports.
+*/
+/*
+This file is used to contain all abstracts imports.
+Files inside this folder can contain abstract settings, helpers or functions. They have no direct output.
+*/
+/* CSS Document */
+/*
+This file is used to contain all base imports.
+Files inside this folder can contain global styles used in the project.
+*/
+/* CSS Document */
+/* CSS Document */
+h1 {
+  text-shadow: 1px 1px 1px black; }
+
+/*
+This file is used to contain all component imports.
+Files inside this folder should contain all styles relating to a reusable component.
+*/
+.btn {
+  background-color: #1e69d4; }
+
+.btn a {
+  text-transform: uppercase;
+  font-size: .8em;
+  text-decoration: none;
+  color: white; }
+
+.btn:hover {
+  background-color: #3c78d4;
+  cursor: pointer; }
+
+.btn a:visited {
+  text-decoration: underline;
+  text-decoration-style: dotted; }
+
+.btn.alt {
+  color: blue; }
+
+/* CSS Document */
+/* CSS Document */
+/*
+This file is used to contain all component imports.
+Files inside this folder can contain specific element styles and layout.
+*/
+/* CSS Document */
+nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 3em; }
+
+.brand img {
+  padding-left: 30px;
+  padding-top: 5px;
+  width: 4em; }
+
+.mainpanel {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 55.5vw;
+  margin-top: -3em;
+  background: #000000;
+  background-image: url("../img/topBg_img@2x.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: white;
+  border-radius: 0px; }
+
+.mainpanel span {
+  display: inline-block;
+  width: 60vw;
+  height: .6em;
+  background: #09d147; }
+
+.mainpanel h2:first-child {
+  margin-top: -1.4em; }
+
+html, body {
+  height: 100%; }
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: #187bb1;
+  font-size: 20px;
+  font-family: 'Helvetica-Neue', sans-serif; }
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  flex: 1 0 auto; }
+
+.sectdiv {
+  display: block;
+  width: 100%;
+  border-bottom: 0.6em solid #434343; }
+
+.title {
+  background: #4b4b4b;
+  color: white;
+  height: 3em;
+  line-height: 3em;
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif; }
+
+.title h2 {
+  display: inline-block;
+  font-family: "acumin-pro", sans-serif;
+  font-weight: 600;
+  font-size: 1.4em;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase; }
+
+.info-col {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 4em 4em; }
+
+.info-cpy {
+  display: block;
+  max-width: 30em; }
+
+.info-col .logos a > img {
+  max-width: 15em;
+  padding-bottom: 2em;
+  transition: all .4s ease-in-out; }
+
+.info-col .logos a > img:hover {
+  max-width: 15.5em; }
+
+footer {
+  display: flex;
+  flex: 1 0 auto;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 2em 0em; }
+
+.footer-col {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 20em;
+  font-size: .6em;
+  padding: 1em;
+  color: white;
+  text-transform: uppercase; }
+
+.footer-col h4 {
+  font-size: 1.2em; }
+
+.footer-col ul {
+  padding-left: 1em; }
+
+.footer-col li {
+  list-style: none; }
+
+.footer-col p {
+  line-height: 1em;
+  margin-bottom: .3em; }
+
+.footer-col-full {
+  width: 100%;
+  margin: auto;
+  height: 3em;
+  text-align: center; }
+
+.footer-col-full span > img {
+  width: 20em; }
+
+@media (max-width: 400px) {
+  .footer-col {
+    width: 25em; }
+  .sect-1 div {
+    left: 0px;
+    max-width: 100%; }
+  .sect-2 div {
+    max-width: 100%; } }
+
+/*END @media <890px*/
+.legal {
+  background: #404040;
+  display: block;
+  width: 100%;
+  height: auto;
+  color: #d5d5d5;
+  font-size: .6em;
+  padding: .5em;
+  text-align: center;
+  line-height: 1em;
+  vertical-align: middle; }
+
+.built {
+  font-size: .8em; }
+
+.built a {
+  color: #d76900; }
+
+.service {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background: white;
+  padding: 4em 6em; }
+
+.service h3 {
+  text-transform: uppercase;
+  font-size: 1.4em; }
+
+.service p {
+  color: #959595;
+  margin-bottom: 3em; }
+
+.nav-menu {
+  content: "";
+  padding-right: 4em;
+  width: 45px;
+  height: 30px;
+  cursor: pointer;
+  transition: padding-right .3s ease-in-out; }
+
+.nav-menu:hover {
+  padding-right: 1.6em; }
+
+.bar,
+.bar:after,
+.bar:before {
+  height: 6px; }
+
+.bar {
+  position: relative;
+  left: 13.5px;
+  width: 31.5px;
+  transform: translateY(12px);
+  background: white;
+  transition: all 0ms 300ms cubic-bezier(0.23, 1, 0.32, 1); }
+
+.bar:before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  width: 22.5px;
+  bottom: 12px;
+  background: white;
+  transition: right 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); }
+
+.bar:after {
+  content: "";
+  position: absolute;
+  width: 45px;
+  left: -43%;
+  top: 12px;
+  background: white;
+  transition: left 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); }
+
+.bar.animate:after {
+  left: 0;
+  transform: translateX(0%);
+  transition: left 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); }
+
+.bar.animate:before {
+  right: 0;
+  transform: translateX(-40%);
+  transition: right 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1); }
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 20px; } }
+
+/*# sourceMappingURL=styles.css.map */
